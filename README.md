@@ -7,7 +7,7 @@ Zetten is build on top of Google Firebase engine and SwitfUI introduced in 2019.
 synchronizing notes acros multiple devices with soft real-time guarantess.
 
 SwiftUI is a novel approach to writing composable native application using Swift and targeting Apple's Catalyst platform where
-you get support for both Mac OS and iOS devices out of the box.
+you get support for both Mac OS and iOS devices out of the box. SwiftUI choses similar approach to view composition as React making developing natively looking views significantly simpler
 
 <img src="https://github.com/hrvolapeter/zetten/blob/master/images/mac_tree.png" 
 alt="Mac OS tree" width="500"/>
