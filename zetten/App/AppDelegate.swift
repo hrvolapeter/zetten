@@ -13,15 +13,12 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-  @Injected var authenticationService: AuthenticationService
-
   func application(
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     FirebaseApp.configure()
     LoggingConfiguration.configure()
-    authenticationService.configure()
     return true
   }
 

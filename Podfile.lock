@@ -242,6 +242,8 @@ PODS:
   - GRDB.swift (4.11.0):
     - GRDB.swift/standard (= 4.11.0)
   - GRDB.swift/standard (4.11.0)
+  - GRDBCombine (0.8.1):
+    - GRDB.swift (~> 4.1)
   - "gRPC-C++ (0.0.9)":
     - "gRPC-C++/Implementation (= 0.0.9)"
     - "gRPC-C++/Interface (= 0.0.9)"
@@ -275,6 +277,7 @@ DEPENDENCIES:
   - FirebaseCore
   - FirebaseFirestoreSwift
   - GRDB.swift
+  - GRDBCombine
   - Resolver
 
 SPEC REPOS:
@@ -296,6 +299,7 @@ SPEC REPOS:
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
     - GRDB.swift
+    - GRDBCombine
     - "gRPC-C++"
     - gRPC-Core
     - GTMSessionFetcher
@@ -322,6 +326,7 @@ SPEC CHECKSUMS:
   GoogleDataTransportCCTSupport: 84e4d4bbab642f2e9d83ee65d78aca2b5527d314
   GoogleUtilities: 06eb53bb579efe7099152735900dd04bf09e7275
   GRDB.swift: 22e9d04cb732dfa9fa4440bc0bbb069ee8195183
+  GRDBCombine: 1f01bb894c0e00afc5c12fd8a173c50de59ed02b
   "gRPC-C++": 9dfe7b44821e7b3e44aacad2af29d2c21f7cde83
   gRPC-Core: c9aef9a261a1247e881b18059b84d597293c9947
   GTMSessionFetcher: cea130bbfe5a7edc8d06d3f0d17288c32ffe9925
@@ -330,6 +335,6 @@ SPEC CHECKSUMS:
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   Resolver: e04ca5a9a19906f2e5cdceb2b90edd3b5daed049
 
-PODFILE CHECKSUM: bc33c9c7ced8c0a6bb964dfcd4244e59e575c7ee
+PODFILE CHECKSUM: 9133412a752a1c7892420b912e23f90599c6f6ef
 
 COCOAPODS: 1.8.4

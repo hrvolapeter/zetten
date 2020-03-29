@@ -6,19 +6,18 @@ target 'zetten' do
   use_frameworks!
 
   # Pods for zetten
-#  pod 'Firebase/Analytics'
   pod 'FirebaseCore'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'Firebase/Crashlytics'
   pod "FirebaseFirestoreSwift"
   pod 'GRDB.swift'
+  pod 'GRDBCombine'  
   pod 'Resolver'
-  
-#  target 'zettenTests' do
-#    inherit! :search_paths
-#    # Pods for testing
-#  end
+  target 'ZettenTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 #
 #  target 'zettenUITests' do
 #    # Pods for testing

@@ -6,16 +6,14 @@
 //  Copyright © 2020 Peter Hrvola. All rights reserved.
 //
 
-import Combine
 import Firebase
-import SwiftUI
 
 /// Wrapper around Firebase auth services
 class AuthenticationService: ObservableObject {
   @Published var user: User?
   var handle: AuthStateDidChangeListenerHandle?
 
-  func configure() {
+  init() {
     handle = Auth.auth().addStateDidChangeListener { (_, user) in
       if let user = user {
         logger.event("Got user: \(user.uid)")
@@ -49,11 +47,5 @@ class AuthenticationService: ObservableObject {
   func signOut() throws {
     try Auth.auth().signOut()
     self.user = nil
-  }
-
-  func unbind() {
-    if let handle = handle {
-      Auth.auth().removeStateDidChangeListener(handle)
-    }
   }
 }

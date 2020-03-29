@@ -91,21 +91,21 @@ struct TreeView: View {
       .foregroundColor(.white)
       .cornerRadius(100)
       .lineLimit(1)
-      .onDrag {
-        NSItemProvider(object: note.id as NSString)
-      }.onDrop(of: NSString.writableTypeIdentifiersForItemProvider, isTargeted: nil) { providers in
-        guard let provider = providers.first
-        else { return false }
-        provider.loadItem(forTypeIdentifier: "public.utf8-plain-text", options: nil) {
-          item, error in
-          guard
-            let id = String(data: item as! Data, encoding: .utf8)
-          else { return }
-          self.vm.changeParent(parent: note, childId: id)
-        }
-
-        return true
-      }
+//      .onDrag {
+//        NSItemProvider(object: note.id as NSString)
+//      }.onDrop(of: NSString.writableTypeIdentifiersForItemProvider, isTargeted: nil) { providers in
+//        guard let provider = providers.first
+//        else { return false }
+//        provider.loadItem(forTypeIdentifier: "public.utf8-plain-text", options: nil) {
+//          item, error in
+//          guard
+//            let id = String(data: item as! Data, encoding: .utf8)
+//          else { return }
+//          self.vm.changeParent(parent: note, childId: id)
+//        }
+//
+//        return true
+//      }
       .padding(10)
       .anchorPreference(
         key: Key.self, value: .center,

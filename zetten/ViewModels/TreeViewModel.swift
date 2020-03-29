@@ -30,16 +30,16 @@ extension TreeView {
     func onAppear() {
       buildTree()
 
-      dbRepository.notesHasChanged.sink {
-        self.buildTree()
-      }.store(in: &cancellables)
+        try! dbRepository.fetch(query: "").assertNoFailure().sink { _ in
+            self.buildTree()
+        }.store(in: &cancellables)
 
       $searchTerm
         .dropFirst(1)
         .debounce(for: 0.8, scheduler: RunLoop.main)
         .removeDuplicates()
         .compactMap { q in
-          try? self.dbRepository.fetch(query: q)
+          try? self.dbRepository.fetchAll(query: q)
         }
         .assign(to: \.searchResult, on: self)
         .store(in: &cancellables)

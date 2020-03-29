@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E07A127AB430D93A22C9C22 /* Pods_zetten.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868A2F74D01FB078B4B0BE24 /* Pods_zetten.framework */; };
 		5D24D534241E5020001F479E /* Willow in Frameworks */ = {isa = PBXBuildFile; productRef = 5D24D533241E5020001F479E /* Willow */; };
 		5D24D536241E502C001F479E /* LoggingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D24D535241E502C001F479E /* LoggingService.swift */; };
 		5D24D538241E6228001F479E /* NoteDetailMetadataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D24D537241E6228001F479E /* NoteDetailMetadataView.swift */; };
@@ -17,6 +18,8 @@
 		5D4761E1241BCCEA00071C1B /* NoteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4761E0241BCCEA00071C1B /* NoteDetailViewModel.swift */; };
 		5D47620E241D260100071C1B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D47620D241D260100071C1B /* UserView.swift */; };
 		5D476211241D7AAA00071C1B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D476210241D7AAA00071C1B /* SearchBar.swift */; };
+		5D5903A8242EA1FD00BD5D83 /* TypeaheadTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5903A7242EA1FD00BD5D83 /* TypeaheadTextfield.swift */; };
+		5D5903AA242EA25100BD5D83 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5903A9242EA25100BD5D83 /* MultilineTextField.swift */; };
 		5D6BE18C2415087400D22DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE18B2415087400D22DA8 /* AppDelegate.swift */; };
 		5D6BE18E2415087400D22DA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE18D2415087400D22DA8 /* SceneDelegate.swift */; };
 		5D6BE1922415087500D22DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6BE1912415087500D22DA8 /* Assets.xcassets */; };
@@ -32,22 +35,39 @@
 		5D75D473241557F500DEE4F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D75D472241557F500DEE4F3 /* ContentView.swift */; };
 		5D75D4772415587F00DEE4F3 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D75D4762415587F00DEE4F3 /* AuthenticationView.swift */; };
 		5D75D47924155B2F00DEE4F3 /* ErrorBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D75D47824155B2F00DEE4F3 /* ErrorBox.swift */; };
-		5DC6CA04241FC90D005CD5E8 /* Pods_zetten.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D647C9398423C63231A1AAFE /* Pods_zetten.framework */; };
 		5DC6CA0D241FD0AA005CD5E8 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6CA0C241FD0AA005CD5E8 /* Popover.swift */; };
 		5DC6CA11241FE665005CD5E8 /* DatabaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6CA10241FE665005CD5E8 /* DatabaseRepository.swift */; };
 		5DC6CA132422C1A8005CD5E8 /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6CA122422C1A8005CD5E8 /* TreeView.swift */; };
 		5DC6CA152422C1C8005CD5E8 /* TreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6CA142422C1C8005CD5E8 /* TreeViewModel.swift */; };
 		5DC6CA1924256D75005CD5E8 /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6CA1824256D75005CD5E8 /* Timestamp.swift */; };
 		5DC6CA1B24257716005CD5E8 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6CA1A24257716005CD5E8 /* View.swift */; };
+		5DFFA064242F88A70059B9FF /* ZettenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFA063242F88A70059B9FF /* ZettenTests.swift */; };
+		5DFFA06C242F88EA0059B9FF /* ZettenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFA06B242F88EA0059B9FF /* ZettenUITests.swift */; };
+		FA3E72C86F36B044EF11292A /* Pods_ZettenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D62B2C4872EFB4D127C258E /* Pods_ZettenTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5DFFA05E242F887C0059B9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D6BE1802415087400D22DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6BE1872415087400D22DA8;
+			remoteInfo = zetten;
+		};
+		5DFFA06E242F88EA0059B9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D6BE1802415087400D22DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6BE1872415087400D22DA8;
+			remoteInfo = zetten;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0883709F0D1A227B5B622C03 /* Pods-zetten-zettenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zetten-zettenUITests.debug.xcconfig"; path = "Target Support Files/Pods-zetten-zettenUITests/Pods-zetten-zettenUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		10857C0158205EC7AD71333D /* Pods_zettenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zettenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		141313418D09487D40BE4342 /* Pods-zetten.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zetten.release.xcconfig"; path = "Target Support Files/Pods-zetten/Pods-zetten.release.xcconfig"; sourceTree = "<group>"; };
-		263F21B75D951E35E715C8CC /* Pods_zetten_zettenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zetten_zettenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C16D130F803178FAD01D753 /* Pods-zetten.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zetten.debug.xcconfig"; path = "Target Support Files/Pods-zetten/Pods-zetten.debug.xcconfig"; sourceTree = "<group>"; };
-		4E2E59FA994F239C522F774D /* Pods-zettenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zettenTests.debug.xcconfig"; path = "Target Support Files/Pods-zettenTests/Pods-zettenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		036900C2A99B682CDC2A20B4 /* Pods-ZettenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZettenTests.debug.xcconfig"; path = "Target Support Files/Pods-ZettenTests/Pods-ZettenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		06D2ADD1F7EDE994F6D4D808 /* Pods-ZettenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZettenTests.release.xcconfig"; path = "Target Support Files/Pods-ZettenTests/Pods-ZettenTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D62B2C4872EFB4D127C258E /* Pods_ZettenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZettenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8885A308EF9313A86760DB /* Pods-zetten.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zetten.release.xcconfig"; path = "Target Support Files/Pods-zetten/Pods-zetten.release.xcconfig"; sourceTree = "<group>"; };
 		5D24D535241E502C001F479E /* LoggingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingService.swift; sourceTree = "<group>"; };
 		5D24D537241E6228001F479E /* NoteDetailMetadataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailMetadataView.swift; sourceTree = "<group>"; };
 		5D24D53F241E71A4001F479E /* MultiColumnListPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiColumnListPlaceholderView.swift; sourceTree = "<group>"; };
@@ -57,6 +77,8 @@
 		5D4761E0241BCCEA00071C1B /* NoteDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewModel.swift; sourceTree = "<group>"; };
 		5D47620D241D260100071C1B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		5D476210241D7AAA00071C1B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		5D5903A7242EA1FD00BD5D83 /* TypeaheadTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeaheadTextfield.swift; sourceTree = "<group>"; };
+		5D5903A9242EA25100BD5D83 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		5D6BE1882415087400D22DA8 /* Zetten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zetten.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6BE18B2415087400D22DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D6BE18D2415087400D22DA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,10 +86,6 @@
 		5D6BE1942415087500D22DA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D6BE1972415087500D22DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D6BE1992415087500D22DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D6BE1A22415087500D22DA8 /* zettenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zettenTests.swift; sourceTree = "<group>"; };
-		5D6BE1A42415087500D22DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D6BE1AD2415087500D22DA8 /* zettenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zettenUITests.swift; sourceTree = "<group>"; };
-		5D6BE1AF2415087500D22DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D6BE1BB2415088600D22DA8 /* zetten.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zetten.entitlements; sourceTree = "<group>"; };
 		5D6BE1BC24151CCD00D22DA8 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		5D6BE1C024151D9200D22DA8 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
@@ -85,9 +103,14 @@
 		5DC6CA142422C1C8005CD5E8 /* TreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeViewModel.swift; sourceTree = "<group>"; };
 		5DC6CA1824256D75005CD5E8 /* Timestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
 		5DC6CA1A24257716005CD5E8 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		D647C9398423C63231A1AAFE /* Pods_zetten.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zetten.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC4EAC9A75BFB7A01B41D5D1 /* Pods-zetten-zettenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zetten-zettenUITests.release.xcconfig"; path = "Target Support Files/Pods-zetten-zettenUITests/Pods-zetten-zettenUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F54FF6A25E417950001F279D /* Pods-zettenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zettenTests.release.xcconfig"; path = "Target Support Files/Pods-zettenTests/Pods-zettenTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DFFA059242F887C0059B9FF /* ZettenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZettenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFFA05D242F887C0059B9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DFFA063242F88A70059B9FF /* ZettenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZettenTests.swift; sourceTree = "<group>"; };
+		5DFFA069242F88EA0059B9FF /* ZettenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZettenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFFA06B242F88EA0059B9FF /* ZettenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZettenUITests.swift; sourceTree = "<group>"; };
+		5DFFA06D242F88EA0059B9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7424558C2F5F2FE1966BE823 /* Pods-zetten.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zetten.debug.xcconfig"; path = "Target Support Files/Pods-zetten/Pods-zetten.debug.xcconfig"; sourceTree = "<group>"; };
+		868A2F74D01FB078B4B0BE24 /* Pods_zetten.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zetten.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,23 +118,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DC6CA04241FC90D005CD5E8 /* Pods_zetten.framework in Frameworks */,
 				5D24D534241E5020001F479E /* Willow in Frameworks */,
+				4E07A127AB430D93A22C9C22 /* Pods_zetten.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFFA056242F887C0059B9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3E72C86F36B044EF11292A /* Pods_ZettenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFFA066242F88EA0059B9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ABFEE2D7CAD434DF834C0E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D62B2C4872EFB4D127C258E /* Pods_ZettenTests.framework */,
+				868A2F74D01FB078B4B0BE24 /* Pods_zetten.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		47BB10A8EA28F6F0350FD543 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3C16D130F803178FAD01D753 /* Pods-zetten.debug.xcconfig */,
-				141313418D09487D40BE4342 /* Pods-zetten.release.xcconfig */,
-				0883709F0D1A227B5B622C03 /* Pods-zetten-zettenUITests.debug.xcconfig */,
-				DC4EAC9A75BFB7A01B41D5D1 /* Pods-zetten-zettenUITests.release.xcconfig */,
-				4E2E59FA994F239C522F774D /* Pods-zettenTests.debug.xcconfig */,
-				F54FF6A25E417950001F279D /* Pods-zettenTests.release.xcconfig */,
+				036900C2A99B682CDC2A20B4 /* Pods-ZettenTests.debug.xcconfig */,
+				06D2ADD1F7EDE994F6D4D808 /* Pods-ZettenTests.release.xcconfig */,
+				7424558C2F5F2FE1966BE823 /* Pods-zetten.debug.xcconfig */,
+				3D8885A308EF9313A86760DB /* Pods-zetten.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -145,15 +190,24 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		5D5903A6242EA1D900BD5D83 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5D5903A7242EA1FD00BD5D83 /* TypeaheadTextfield.swift */,
+				5D5903A9242EA25100BD5D83 /* MultilineTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		5D6BE17F2415087400D22DA8 = {
 			isa = PBXGroup;
 			children = (
 				5D6BE18A2415087400D22DA8 /* zetten */,
-				5D6BE1A12415087500D22DA8 /* zettenTests */,
-				5D6BE1AC2415087500D22DA8 /* zettenUITests */,
+				5DFFA05A242F887C0059B9FF /* ZettenTests */,
+				5DFFA06A242F88EA0059B9FF /* ZettenUITests */,
 				5D6BE1892415087400D22DA8 /* Products */,
 				47BB10A8EA28F6F0350FD543 /* Pods */,
-				F94BD55FA9E445DABF25053A /* Frameworks */,
+				2ABFEE2D7CAD434DF834C0E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +215,8 @@
 			isa = PBXGroup;
 			children = (
 				5D6BE1882415087400D22DA8 /* Zetten.app */,
+				5DFFA059242F887C0059B9FF /* ZettenTests.xctest */,
+				5DFFA069242F88EA0059B9FF /* ZettenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +224,7 @@
 		5D6BE18A2415087400D22DA8 /* zetten */ = {
 			isa = PBXGroup;
 			children = (
+				5D5903A6242EA1D900BD5D83 /* Components */,
 				5DC6CA0B241FD096005CD5E8 /* Utils */,
 				5D4761DD241B9DAA00071C1B /* ViewModels */,
 				5D4761DA241AE78200071C1B /* Services */,
@@ -191,24 +248,6 @@
 				5D6BE1942415087500D22DA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5D6BE1A12415087500D22DA8 /* zettenTests */ = {
-			isa = PBXGroup;
-			children = (
-				5D6BE1A22415087500D22DA8 /* zettenTests.swift */,
-				5D6BE1A42415087500D22DA8 /* Info.plist */,
-			);
-			path = zettenTests;
-			sourceTree = "<group>";
-		};
-		5D6BE1AC2415087500D22DA8 /* zettenUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5D6BE1AD2415087500D22DA8 /* zettenUITests.swift */,
-				5D6BE1AF2415087500D22DA8 /* Info.plist */,
-			);
-			path = zettenUITests;
 			sourceTree = "<group>";
 		};
 		5D6BE1CE241522E300D22DA8 /* Models */ = {
@@ -257,14 +296,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		F94BD55FA9E445DABF25053A /* Frameworks */ = {
+		5DFFA05A242F887C0059B9FF /* ZettenTests */ = {
 			isa = PBXGroup;
 			children = (
-				D647C9398423C63231A1AAFE /* Pods_zetten.framework */,
-				263F21B75D951E35E715C8CC /* Pods_zetten_zettenUITests.framework */,
-				10857C0158205EC7AD71333D /* Pods_zettenTests.framework */,
+				5DFFA063242F88A70059B9FF /* ZettenTests.swift */,
+				5DFFA05D242F887C0059B9FF /* Info.plist */,
 			);
-			name = Frameworks;
+			path = ZettenTests;
+			sourceTree = "<group>";
+		};
+		5DFFA06A242F88EA0059B9FF /* ZettenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DFFA06B242F88EA0059B9FF /* ZettenUITests.swift */,
+				5DFFA06D242F88EA0059B9FF /* Info.plist */,
+			);
+			path = ZettenUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,12 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D6BE1B22415087500D22DA8 /* Build configuration list for PBXNativeTarget "zetten" */;
 			buildPhases = (
-				F06860015DBB8BB3B841B22D /* [CP] Check Pods Manifest.lock */,
+				F13CA88188AD1F73124F37F2 /* [CP] Check Pods Manifest.lock */,
 				5D6BE1842415087400D22DA8 /* Sources */,
 				5D6BE1852415087400D22DA8 /* Frameworks */,
 				5D6BE1862415087400D22DA8 /* Resources */,
-				48D6D0879B16D9630C71E4AA /* [CP] Embed Pods Frameworks */,
 				5D24D53E241E6F6E001F479E /* ShellScript */,
+				9E8E711AE2D0935171B35916 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,18 +340,63 @@
 			productReference = 5D6BE1882415087400D22DA8 /* Zetten.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5DFFA058242F887C0059B9FF /* ZettenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFFA060242F887C0059B9FF /* Build configuration list for PBXNativeTarget "ZettenTests" */;
+			buildPhases = (
+				A466B0000304F146D77B01C7 /* [CP] Check Pods Manifest.lock */,
+				5DFFA055242F887C0059B9FF /* Sources */,
+				5DFFA056242F887C0059B9FF /* Frameworks */,
+				5DFFA057242F887C0059B9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DFFA05F242F887C0059B9FF /* PBXTargetDependency */,
+			);
+			name = ZettenTests;
+			productName = ZettenTests;
+			productReference = 5DFFA059242F887C0059B9FF /* ZettenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DFFA068242F88EA0059B9FF /* ZettenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFFA070242F88EA0059B9FF /* Build configuration list for PBXNativeTarget "ZettenUITests" */;
+			buildPhases = (
+				5DFFA065242F88EA0059B9FF /* Sources */,
+				5DFFA066242F88EA0059B9FF /* Frameworks */,
+				5DFFA067242F88EA0059B9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DFFA06F242F88EA0059B9FF /* PBXTargetDependency */,
+			);
+			name = ZettenUITests;
+			productName = ZettenUITests;
+			productReference = 5DFFA069242F88EA0059B9FF /* ZettenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5D6BE1802415087400D22DA8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Peter Hrvola";
 				TargetAttributes = {
 					5D6BE1872415087400D22DA8 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					5DFFA058242F887C0059B9FF = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 5D6BE1872415087400D22DA8;
+					};
+					5DFFA068242F88EA0059B9FF = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 5D6BE1872415087400D22DA8;
 					};
 				};
 			};
@@ -325,6 +417,8 @@
 			projectRoot = "";
 			targets = (
 				5D6BE1872415087400D22DA8 /* zetten */,
+				5DFFA058242F887C0059B9FF /* ZettenTests */,
+				5DFFA068242F88EA0059B9FF /* ZettenUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -341,26 +435,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		48D6D0879B16D9630C71E4AA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
+		5DFFA057242F887C0059B9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zetten/Pods-zetten-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-zetten/Pods-zetten-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFFA067242F88EA0059B9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zetten/Pods-zetten-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
 		5D24D53E241E6F6E001F479E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,7 +471,46 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
-		F06860015DBB8BB3B841B22D /* [CP] Check Pods Manifest.lock */ = {
+		9E8E711AE2D0935171B35916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zetten/Pods-zetten-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zetten/Pods-zetten-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zetten/Pods-zetten-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A466B0000304F146D77B01C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZettenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13CA88188AD1F73124F37F2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,7 +540,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC6CA1B24257716005CD5E8 /* View.swift in Sources */,
+				5D5903A8242EA1FD00BD5D83 /* TypeaheadTextfield.swift in Sources */,
 				5DC6CA11241FE665005CD5E8 /* DatabaseRepository.swift in Sources */,
+				5D5903AA242EA25100BD5D83 /* MultilineTextField.swift in Sources */,
 				5D4761DC241AE8C700071C1B /* FireRepository.swift in Sources */,
 				5D6BE1C524151EBD00D22DA8 /* NoteRow.swift in Sources */,
 				5D4761E1241BCCEA00071C1B /* NoteDetailViewModel.swift in Sources */,
@@ -438,7 +570,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5DFFA055242F887C0059B9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFFA064242F88A70059B9FF /* ZettenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFFA065242F88EA0059B9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFFA06C242F88EA0059B9FF /* ZettenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DFFA05F242F887C0059B9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6BE1872415087400D22DA8 /* zetten */;
+			targetProxy = 5DFFA05E242F887C0059B9FF /* PBXContainerItemProxy */;
+		};
+		5DFFA06F242F88EA0059B9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6BE1872415087400D22DA8 /* zetten */;
+			targetProxy = 5DFFA06E242F88EA0059B9FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D6BE1962415087500D22DA8 /* LaunchScreen.storyboard */ = {
@@ -502,10 +663,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-fprofile-instr-generate";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -556,9 +718,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-fprofile-instr-generate";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -568,7 +731,7 @@
 		};
 		5D6BE1B32415087500D22DA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C16D130F803178FAD01D753 /* Pods-zetten.debug.xcconfig */;
+			baseConfigurationReference = 7424558C2F5F2FE1966BE823 /* Pods-zetten.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = icon;
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
@@ -598,7 +761,7 @@
 		};
 		5D6BE1B42415087500D22DA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 141313418D09487D40BE4342 /* Pods-zetten.release.xcconfig */;
+			baseConfigurationReference = 3D8885A308EF9313A86760DB /* Pods-zetten.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = icon;
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
@@ -626,6 +789,90 @@
 			};
 			name = Release;
 		};
+		5DFFA061242F887C0059B9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036900C2A99B682CDC2A20B4 /* Pods-ZettenTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP5JHBHFMQ;
+				INFOPLIST_FILE = ZettenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ZettenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zetten.app/Zetten";
+			};
+			name = Debug;
+		};
+		5DFFA062242F887C0059B9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D2ADD1F7EDE994F6D4D808 /* Pods-ZettenTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP5JHBHFMQ;
+				INFOPLIST_FILE = ZettenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ZettenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zetten.app/Zetten";
+			};
+			name = Release;
+		};
+		5DFFA071242F88EA0059B9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP5JHBHFMQ;
+				INFOPLIST_FILE = ZettenUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ZettenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zetten;
+			};
+			name = Debug;
+		};
+		5DFFA072242F88EA0059B9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP5JHBHFMQ;
+				INFOPLIST_FILE = ZettenUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.ZettenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zetten;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -643,6 +890,24 @@
 			buildConfigurations = (
 				5D6BE1B32415087500D22DA8 /* Debug */,
 				5D6BE1B42415087500D22DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFFA060242F887C0059B9FF /* Build configuration list for PBXNativeTarget "ZettenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFFA061242F887C0059B9FF /* Debug */,
+				5DFFA062242F887C0059B9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFFA070242F88EA0059B9FF /* Build configuration list for PBXNativeTarget "ZettenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFFA071242F88EA0059B9FF /* Debug */,
+				5DFFA072242F88EA0059B9FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

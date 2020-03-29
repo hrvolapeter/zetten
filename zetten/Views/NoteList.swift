@@ -20,7 +20,7 @@ struct NoteListView: View {
   var body: some View {
     NavigationView {
       VStack(alignment: .leading) {
-        SearchBar(text: $vm.searchTerm)
+        SearchBar(text: $vm.searchTerm).accessibility(identifier: "Serch query")
         list
         newNote
         childNoteView
@@ -28,7 +28,9 @@ struct NoteListView: View {
       if vm.notes.count > 0 {
         MultiColumnListPlaceholderView()
       }
-    }
+        }
+    .onAppear(perform: vm.onAppear)
+    .onDisappear(perform: vm.onDisappear)
   }
 
   var childNoteView: some View {
