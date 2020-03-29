@@ -45,3 +45,6 @@ alt="iOS list" width="160"/>
 5. After the first run you will see errors from Firestore in the application console with links. Copy the link to your browser
    and follow the steps to creater required incides for the database
 6. Now you are good to run 🏃‍♂️
+
+### What does Zetten mean?
+Everyone referring to Zettelkasten method seems to be using the German name, which in translation simply means Note box. When I was looking for a name for the app at first I wanted to simply call it Zettelkasten, however, Zettelkasten is a fairly long name and doesn't look good on visual materials. After playing with a word for a while I've come up with a shorter version - Zetten from simply omitting the middle part of the word; Zett(elkast)en. Some research showed Zetten means typesetting in Dutch and is also a Dutch city.
