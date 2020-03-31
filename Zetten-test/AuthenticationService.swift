@@ -16,11 +16,7 @@ class AuthenticationService: ObservableObject {
   init() {
     cancellable = Auth.auth().addStateDidChangeListener { (_, user) in
       if let user = user {
-        self.user = User(
-          uid: user.uid,
-          email: user.email,
-          displayName: user.displayName
-        )
+        self.user = user
       } else {
         self.user = nil
       }

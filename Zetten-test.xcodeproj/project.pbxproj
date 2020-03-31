@@ -9,27 +9,27 @@
 /* Begin PBXBuildFile section */
 		3F8387B5F62CC3EB67F0531D /* Pods_Zetten_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510ACD3870CB5896A6038E5 /* Pods_Zetten_test.framework */; };
 		5D1617E8242807B700D7ADF6 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5D1617E7242807B700D7ADF6 /* Base.lproj */; };
+		5D84997A243148F4001CF304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D849979243148F4001CF304 /* Assets.xcassets */; };
+		5D84997E24314A05001CF304 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D84997D24314A05001CF304 /* GoogleService-Info.plist */; };
 		5D9B1FBF242767AB00877DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B1FBE242767AB00877DA0 /* AppDelegate.swift */; };
 		5D9B1FC1242767AB00877DA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B1FC0242767AB00877DA0 /* SceneDelegate.swift */; };
 		5D9B1FC3242767AB00877DA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B1FC2242767AB00877DA0 /* ContentView.swift */; };
-		5D9B1FC5242767AE00877DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B1FC4242767AE00877DA0 /* Assets.xcassets */; };
 		5D9B1FC8242767AE00877DA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B1FC7242767AE00877DA0 /* Preview Assets.xcassets */; };
 		5D9B1FCB242767AE00877DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B1FC9242767AE00877DA0 /* LaunchScreen.storyboard */; };
 		5D9B1FD42427C43300877DA0 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B1FD32427C43300877DA0 /* AuthenticationView.swift */; };
 		5D9B1FD62427E90E00877DA0 /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B1FD52427E90E00877DA0 /* AppDelegate+Injection.swift */; };
 		5D9B1FD82427E93B00877DA0 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B1FD72427E93B00877DA0 /* AuthenticationService.swift */; };
-		5D9B1FDA2427E96A00877DA0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B1FD92427E96A00877DA0 /* User.swift */; };
-		5D9B1FE02427ED9000877DA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B1FDF2427ED9000877DA0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F22F5454206251E93C08FB6 /* Pods-Zetten-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zetten-test.debug.xcconfig"; path = "Target Support Files/Pods-Zetten-test/Pods-Zetten-test.debug.xcconfig"; sourceTree = "<group>"; };
 		5D1617E7242807B700D7ADF6 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		5D849979243148F4001CF304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D84997D24314A05001CF304 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5D9B1FBB242767AB00877DA0 /* Zetten-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zetten-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9B1FBE242767AB00877DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D9B1FC0242767AB00877DA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5D9B1FC2242767AB00877DA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5D9B1FC4242767AE00877DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D9B1FC7242767AE00877DA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D9B1FCA242767AE00877DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D9B1FCC242767AE00877DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,8 +37,6 @@
 		5D9B1FD32427C43300877DA0 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		5D9B1FD52427E90E00877DA0 /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
 		5D9B1FD72427E93B00877DA0 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
-		5D9B1FD92427E96A00877DA0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		5D9B1FDF2427ED9000877DA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9510ACD3870CB5896A6038E5 /* Pods_Zetten_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zetten_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85F8D46ADA3CDB9395617C5 /* Pods-Zetten-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zetten-test.release.xcconfig"; path = "Target Support Files/Pods-Zetten-test/Pods-Zetten-test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,14 +91,13 @@
 		5D9B1FBD242767AB00877DA0 /* Zetten-test */ = {
 			isa = PBXGroup;
 			children = (
+				5D84997D24314A05001CF304 /* GoogleService-Info.plist */,
+				5D849979243148F4001CF304 /* Assets.xcassets */,
 				5D1617E7242807B700D7ADF6 /* Base.lproj */,
-				5D9B1FDF2427ED9000877DA0 /* GoogleService-Info.plist */,
-				5D9B1FD92427E96A00877DA0 /* User.swift */,
 				5D9B1FD22427681B00877DA0 /* Zetten-test.entitlements */,
 				5D9B1FBE242767AB00877DA0 /* AppDelegate.swift */,
 				5D9B1FC0242767AB00877DA0 /* SceneDelegate.swift */,
 				5D9B1FC2242767AB00877DA0 /* ContentView.swift */,
-				5D9B1FC4242767AE00877DA0 /* Assets.xcassets */,
 				5D9B1FC9242767AE00877DA0 /* LaunchScreen.storyboard */,
 				5D9B1FCC242767AE00877DA0 /* Info.plist */,
 				5D9B1FC6242767AE00877DA0 /* Preview Content */,
@@ -180,10 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D9B1FCB242767AE00877DA0 /* LaunchScreen.storyboard in Resources */,
-				5D9B1FE02427ED9000877DA0 /* GoogleService-Info.plist in Resources */,
 				5D1617E8242807B700D7ADF6 /* Base.lproj in Resources */,
+				5D84997E24314A05001CF304 /* GoogleService-Info.plist in Resources */,
 				5D9B1FC8242767AE00877DA0 /* Preview Assets.xcassets in Resources */,
-				5D9B1FC5242767AE00877DA0 /* Assets.xcassets in Resources */,
+				5D84997A243148F4001CF304 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +239,6 @@
 				5D9B1FD82427E93B00877DA0 /* AuthenticationService.swift in Sources */,
 				5D9B1FC3242767AB00877DA0 /* ContentView.swift in Sources */,
 				5D9B1FD62427E90E00877DA0 /* AppDelegate+Injection.swift in Sources */,
-				5D9B1FDA2427E96A00877DA0 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
